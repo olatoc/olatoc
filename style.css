@@ -1,0 +1,128 @@
+/*background gradient*/
+html body{ 
+    background: linear-gradient(to left, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    background-size: cover;
+}
+
+/*link styling*/
+a:link {
+    color: #cccccc;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #cccccc;
+    text-decoration: underline;
+}
+
+/*style of navbar*/
+nav {
+    font-family: "Dosis";
+    font-size: 30px;
+}
+.navbar {
+    padding: 0px;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+/*style of title in home page*/
+main[role=main]{
+    margin-top: 20%;
+    margin-bottom: 0%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
+#title-name h1{
+    font-family: "Cute Font";
+    font-size: 60px;
+}
+#title-info{
+    font-family: "Cute Font";
+    font-size: 30px;
+}
+
+/*style of about page*/
+main[role=about]{
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
+#education h1, #experience h1, #skills h1, #interests h1{
+    font-family: "Gayathri";
+    font-size: 40px;
+}
+
+#education h2, #experience h2, #skills h2, #interests h2{
+    font-family: "Nunito Sans";
+    font-size: 20px;
+}
+
+#education ul, #experience ul, #skills ul, #interests ul{
+    font-family: "Nunito Sans";
+    font-size: 15px;
+}
+
+ul{
+    list-style-type: circle;
+    padding-left: 5%;
+}
+
+/*Styling of projects page*/
+#personal-proj h1, #school-proj h1{
+    font-family: "Gayathri";
+    font-size: 40px;
+}
+
+#personal-proj h2, #school-proj h2{
+    font-family: "Nunito Sans";
+    font-size: 20px;
+}
+
+/*badge link styling*/
+a:link.badge {
+    color: white;
+    text-decoration: none;
+}
+  
+a:visited.badge {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover.badge {
+    color: white;
+    text-decoration: none;
+}
+
+a:active.badge {
+    color: white;
+    text-decoration: underline;
+}
+
+#source-link{
+    float: right;
+}
